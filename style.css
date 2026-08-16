@@ -251,11 +251,18 @@ h2 {
   color: var(--muted);
   margin-top: 14px;
 }
+.cardsm {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
+
 .card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -643,6 +650,7 @@ footer {
     letter-spacing: -2px;
   }
   .cards,
+  .cardsm,
   .pricing,
   .process,
   .stats {
